@@ -3,11 +3,11 @@
 A modern full-stack dApp development boilerplate for building on Westend Asset Hub. This project combines Polkadot and EVM wallet connectivity with a seamless interface for interacting with native Substrate precompiles, pallets, and Solidity smart contracts deployed to Westend Asset Hub.
 
 <p align="center">
-  <img src="/screenshot2.png" alt="Dapp landing" width="1000" height="auto">
+  <img src="/images/screenshot2.png" alt="Dapp landing" width="1000" height="auto">
 </p>
 
 <p align="center">
-  <img src="/screenshot.png" alt="Dapp" width="1000" height="auto">
+  <img src="/images/screenshot.png" alt="Dapp" width="1000" height="auto">
 </p>
 
 ## Features
@@ -65,7 +65,7 @@ A modern full-stack dApp development boilerplate for building on Westend Asset H
 
 ### How It Works
 
-1. The `prepare-contracts.js` script runs before development or build processes
+1. The `prepare-contracts.ts` script runs before development or build processes
 2. It reads `deployed_addresses.json` from your Hardhat Ignition deployments
 3. It matches these with the corresponding ABIs in the artifacts directory
 4. It generates a single `contracts-data.json` file in your `src` directory

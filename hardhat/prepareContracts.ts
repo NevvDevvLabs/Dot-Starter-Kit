@@ -18,13 +18,7 @@ const DEFAULT_CHAIN_ID = "chain-420420421";
 
 const chainId = process.argv[2] || DEFAULT_CHAIN_ID;
 
-const basePath = path.join(
-  __dirname,
-  //   "hardhat",
-  "ignition",
-  "deployments",
-  chainId
-);
+const basePath = path.join(__dirname, "ignition", "deployments", chainId);
 const addressesPath = path.join(basePath, "deployed_addresses.json");
 const artifactsPath = path.join(basePath, "artifacts");
 const outputPath = path.join(
