@@ -1,0 +1,38 @@
+# Dependencies
+node_modules
+
+# Hardhat files
+/cache-pvm
+/artifacts-pvm
+/cache
+/artifacts
+bin/
+binaries/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/*
+
+.qodo/
+.DS_Store
+Thumbs.db
+

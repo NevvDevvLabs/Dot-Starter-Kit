@@ -1,0 +1,12 @@
+# Development testing folders
+/dot-connect
+/my-papi-app
+/my-polkadot-dapp
+/polkadot-nextjs-starter
+/hardhat-polkadot-example
+
+# Dependencies
+node_modules
+
+# Global environment variables
+.env

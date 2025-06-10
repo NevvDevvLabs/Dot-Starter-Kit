@@ -1,0 +1,24 @@
+{
+  "name": "dot-starter-kit",
+  "version": "1.0.0",
+  "workspaces": [
+    "hardhat",
+    "webapp"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "dev": "concurrently \"npm run dev -w hardhat\" \"npm run dev -w webapp\"",
+    "hardhat:compile": "npm run compile -w hardhat",
+    "hardhat:test": "npm run test -w hardhat",
+    "hardhat:deploy": "npm run deploy -w hardhat",
+    "webapp:build": "npm run build -w webapp",
+    "webapp:dev": "npm run dev -w webapp",
+    "webapp:test": "npm run test -w webapp",
+    "clean": "npm run clean --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
