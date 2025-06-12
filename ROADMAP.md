@@ -31,6 +31,11 @@ Create All-In-One Polkadot development starter kit for Full-Stack(Web app + Cont
 
 **Blocked By:** Waiting for the initial review of the current features and roadmap
 
+## Parachains
+
+- Seamless cross-chain connectivity abstracting away using multiple parachains and performing XCM under the hood from the user
+- Building blocks for developers to integrate XCM into their dapp with react hooks and common utilities
+
 ## Precompiles
 
 - Utils / Hooks to interact with deployed precompiles either directly or using Solidity interfaces
