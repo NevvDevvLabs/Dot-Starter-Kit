@@ -23,6 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 /src/contracts-data.json
-/src/data/contracts-data.json
+/src/data/*
+# /src/data/contracts-data.json
 
 .env
