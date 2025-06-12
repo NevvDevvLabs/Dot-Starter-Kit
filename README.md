@@ -36,7 +36,7 @@ A modern full-stack dApp development boilerplate for building on Westend Asset H
 
 ### Clone the repository
 
-- `git clone https://github.com/JustAnotherDevv/Kusama-Dapp-Boilerplate`
+- `git clone https://github.com/NevvDevvLabs/Dot-Starter-Kit`
 - `cd Kusama-Dapp-Boilerplate`
 - `npm i`
 - Go to [polkadot faucet](https://faucet.polkadot.io/?parachain=1111) and claim tokens to your dev wallet
