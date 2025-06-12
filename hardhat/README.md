@@ -27,7 +27,7 @@ npx hardhat vars set DEPLOYER_PK (your EVM private key starting with **0x** pref
 
 npx hardhat compile
 
-npx hardhat ignition deploy ./ignition/modules/MyToken.ts --network westendAssetHub
+npx hardhat ignition deploy ./ignition/modules/MyToken.ts --network passetHub
 ```
 
 6. Development
